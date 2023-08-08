@@ -1,16 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {Route} from 'react-router-dom';
+import {Routes} from 'react-router-dom';
+import Aboutme from './aboutme';
+import Main from './main'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Hello, I'm JISEON OH. <br></br> I design & Build Future.
-        </p>
-      </header>
-    </div>
-  );
+function MainPage()
+{
+    return(
+                <Routes>
+                    <Route exact path="/" element={<Main/>} />
+                    <Route path="/aboutme" element={<Aboutme/>} />
+                </Routes>
+    )
 }
 
-export default App;
+export default MainPage;

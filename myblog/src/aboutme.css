@@ -1,0 +1,28 @@
+.menu{
+    background-color: #282c34;
+    display : flex; 
+    justify-content: flex-end;
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+}
+
+.menu li{
+    margin:0;
+    margin-right: 20px;
+}
+
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: rgba(255, 255, 143, 0.875);
+
+}
+
+.personal, .activity, .tool, .award{
+    font-size: 50px;
+}

@@ -4,7 +4,7 @@ import './main.css';
 const Main = () => {
         const lines = [
           "Hi, I'm JISEON OH.",
-          "I Design & Build User Interface."
+          "I'M CONSTANTLY GROWING UP."
         ];
     return(
         <div className="mainpage-div">

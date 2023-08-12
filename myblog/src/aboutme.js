@@ -1,6 +1,7 @@
 import {Link} from 'react-scroll';
 import './aboutme.css';
 import React from 'react';
+import photo from './myphoto.jpg';
 
 const Aboutme= () =>
 {
@@ -17,17 +18,28 @@ const Aboutme= () =>
         <div className="personal" id="scroll-to-personal">
             <div className="photo-person">
                 <div className="photo">
-                    <img src="/myphoto.jpg" alt=""></img>
+                    <img className="jisun" src={photo} alt=""></img>
                 </div>
                 <div className="person">
-                오 지 선<br></br>
+                <p className="name">
+                오 &nbsp;&nbsp; 지 &nbsp;&nbsp; 선<br></br>
                 JISEON OH<br></br>
-                생년월일 - 2001.04.15<br></br>
-                E-mail - jisunoh0415@gmail.com<br></br>
+                </p>
+                <p className="Contact">
+                #Creative #Executive #Tenacity <br />
+                jisunoh0415@gmail.com<br></br>
+                </p>
+                <p >
+                <a className="Channel" href="https://github.com/jisun0415" target="_blank">Github</a>
+                <br></br>
+                </p>
                 </div>
             </div>
         </div>
         <div className="tool" id="scroll-to-tool">
+            
+        <br></br>
+            <br></br>
             사용가능 툴과 언어 
            
             <br></br>

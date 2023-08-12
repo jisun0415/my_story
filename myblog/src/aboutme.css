@@ -28,12 +28,31 @@
 }
 
 .person{
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 20px;
+    margin-top : 170px;
 }
 
 .photo-person{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     line-height: 1.5;
+}
+
+.jisun{
+    width : 200px;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.Channel{
+    color:hotpink;
+    text-decoration: none;
+    font-weight: bold;
+}
+.Channel:hover{
+    color:darkorchid;
 }

@@ -15,54 +15,33 @@ const Aboutme= () =>
             </ul>
             </nav>
         <div className="personal" id="scroll-to-personal">
-            자기소개 위치, 개인정보들 담을 것
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+            <div className="photo-person">
+                <div className="photo">
+                    <img src="/myphoto.jpg" alt=""></img>
+                </div>
+                <div className="person">
+                오 지 선<br></br>
+                JISEON OH<br></br>
+                생년월일 - 2001.04.15<br></br>
+                E-mail - jisunoh0415@gmail.com<br></br>
+                </div>
+            </div>
         </div>
         <div className="tool" id="scroll-to-tool">
             사용가능 툴과 언어 
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+           
             <br></br>
             <br></br>
         </div>
         <div className="award" id="scroll-to-award">
             수상경력
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+            
             <br></br>
             <br></br>
         </div>
         <div className="activity" id="scroll-to-activity">
             학내외 활동
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+            
             <br></br>
             <br></br>
         </div>

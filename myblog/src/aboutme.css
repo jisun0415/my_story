@@ -24,5 +24,16 @@
 }
 
 .personal, .activity, .tool, .award{
-    font-size: 50px;
+    font-size: 20px;
+}
+
+.person{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.photo-person{
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1.5;
 }

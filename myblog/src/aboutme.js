@@ -42,22 +42,22 @@ const Aboutme= () =>
                         Introduce
                     </div>
                     <div className="Content">
-                    <p className="smalltitle">
+                    <div className="smalltitle">
                         E-MAIL <br />
                         UNIV <br />
                         BIRTH <br />
                         POSITION <br />
                         HOBBY <br />
                         MY KEYWORDS <br />
-                    </p>
-                    <p className="content">
+                    </div>
+                    <div className="content">
                         jisunoh0415@gmail.com <br />
                         Sejong University <br />
                         01.04.15 <br />
-                        AI Engineer & Web-Front developer <br />
+                        Product Manager & AI Engineer & Web-Front developer <br />
                         Running <br />
                         #Creative #Executive #Tenacity <br />
-                    </p>
+                    </div>
                     </div>
             </div>
            

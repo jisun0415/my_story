@@ -29,7 +29,7 @@
 
 .person{
     font-size: 20px;
-    margin-top : 170px;
+    margin-top : 140px;
 }
 
 .photo-person{
@@ -56,3 +56,38 @@
 .Channel:hover{
     color:darkorchid;
 }
+
+.sentence{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.intro{
+    margin-top:50px;
+}
+
+.title{
+    font-weight:bold;
+    font-size: 40px;
+    text-align:center;
+}
+
+.Content{
+    display: flex;
+    margin-left: 20%;
+}
+
+.Content p{
+    flex: 1;
+    margin-right: 10px;
+}
+.smalltitle{
+    font-weight:500;
+}
+
+.smalltitle, .content{
+    letter-spacing : 1.5px;
+    line-height: 2.5;
+    width: 50;
+}
+

@@ -22,7 +22,7 @@ const Aboutme= () =>
                 </div>
                 <div className="person">
                 <div className="sentence">
-                목표를 이루기 위해 가장 최적의 수단을 찾는 개미 <br />
+                목표를 이루기 위해 가장 최적의 수단을 찾는 개발자<br />
                 </div>
                 <p className="name">
                 오 &nbsp;&nbsp; 지 &nbsp;&nbsp; 선<br></br>
@@ -39,7 +39,7 @@ const Aboutme= () =>
             </div>   
             <div className="intro">
                     <div className="title">
-                        Introduce
+                        INTRODUCE
                     </div>
                     <div className="Content">
                     <div className="smalltitle">
@@ -54,7 +54,7 @@ const Aboutme= () =>
                         jisunoh0415@gmail.com <br />
                         Sejong University <br />
                         01.04.15 <br />
-                        Product Manager & AI Engineer & Web-Front developer <br />
+                        Web-Front developer <br />
                         Running <br />
                         #Creative #Executive #Tenacity <br />
                     </div>
@@ -62,15 +62,39 @@ const Aboutme= () =>
             </div>
            
         </div>
-        <div className="tool" id="scroll-to-tool">
-            
-        <br></br>
-            <br></br>
-            사용가능 툴과 언어 
-           
+        <br />
+        <br />
+        <div className="tool" id="scroll-to-tool"> 
+        
+            <div className="title">
+                        SKILL & TECHNIQUES
+            </div>
+            <div className="Content">
+                    <div className="smalltitle">
+                       Tool
+                    </div>
+                    <div className="content">
+                    <span className="original-text">MATLAB</span><br />
+                    <span className="original-text">React</span><br />
+                    <span className="original-text">Linux</span><br />
+                    <span className="original-text">ROS1 noetic / ROS2 foxy</span><br />
+                    </div>
+            </div>
+            <div className="Content">
+                    <div className="smalltitle">
+                       LANGUAGE
+                    </div>
+                    <div className="content">
+                       CSS/HTML/JAVASCRIPT <br />
+                       C/C++ <br />
+                       Python <br />
+                       MySQL <br/>
+                    </div>
+            </div>
             <br></br>
             <br></br>
         </div>
+        
         <div className="award" id="scroll-to-award">
             수상경력
             

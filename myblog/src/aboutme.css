@@ -76,18 +76,29 @@
 .Content{
     display: flex;
     margin-left: 30%;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 
 .smalltitle{
     font-weight:500;
     text-align:left;
-    margin-right: 10em;
+    flex-basis: 30%;
 }
+
+.content{
+    flex-basis: 70%;
+    position: relative;
+}
+
 
 .smalltitle, .content{
     letter-spacing : 1.5px;
     line-height: 2.5;
-    
 }
+
+
+
+
 

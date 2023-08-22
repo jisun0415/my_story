@@ -12,7 +12,7 @@ const Aboutme= () =>
             <li><Link to="scroll-to-personal" className="link" smooth={true} duration={500}>PERSONAL DETAIL</Link></li>
           <li><Link to="scroll-to-tool" className="link" smooth={true} duration={500}>SKILLS</Link></li>
           <li><Link to="scroll-to-award" className="link" smooth={true} duration={500}>AWARDS</Link></li>
-          <li><Link to="scroll-to-activity" className="link" smooth={true} duration={500}>ACTIVITIES</Link></li>
+          <li><Link to="scroll-to-activity" className="link" smooth={true} duration={500}>PROJECTS</Link></li>
             </ul>
             </nav>
         <div className="personal" id="scroll-to-personal">
@@ -59,6 +59,9 @@ const Aboutme= () =>
                         #Creative #Executive #Tenacity <br />
                     </div>
                     </div>
+                    <br />
+        <br /><br />
+        <br />
             </div>
            
         </div>
@@ -96,13 +99,50 @@ const Aboutme= () =>
         </div>
         
         <div className="award" id="scroll-to-award">
-            수상경력
-            
+        <div className="title">
+                        AWARDS
+            </div>
+            <div className="Content">
+                    <div className="smalltitle">
+                       2022.08.19
+                    </div>
+                    <div className="content">
+                    상훈명 : 2022 KABOAT 자율운항 보트대회 <br />
+                    수여기관 : 한국선급 <br />
+                    수상내역 : 설계/제작부문 디자인상 <br />
+                    </div>
+            </div>
+            <br />
+            <div className="Content">
+                    <div className="smalltitle">
+                       2022.08.05
+                    </div>
+                    <div className="content">
+                    상훈명 : 2022 트렌드, 투자 아이디어 제안 <br />
+                    수여기관 : 세종대학교 <br />
+                    수상내역 : 구현부문 대상 <br />
+                    <a className="Channel" href="https://github.com/jisun0415/RGB.GG" target="_blank">Github</a>
+                    </div>
+            </div>
+            <br />
+            <div className="Content">
+                    <div className="smalltitle">
+                       2022.01.07
+                    </div>
+                    <div className="content">
+                    상훈명 : 2021-2 창의학습공동체 <br />
+                    수여기관 : 세종대학교 <br />
+                    수상내역 : 최우수상 <br />
+                    <a className="Channel" href="https://github.com/jisun0415/Dotory" target="_blank">Github</a>
+                    </div>
+            </div>
             <br></br>
             <br></br>
         </div>
         <div className="activity" id="scroll-to-activity">
-            학내외 활동
+        <div className="title">
+                PROJECTS
+            </div>
             
             <br></br>
             <br></br>
